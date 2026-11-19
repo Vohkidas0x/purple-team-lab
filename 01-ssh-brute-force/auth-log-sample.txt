@@ -1,0 +1,13 @@
+2026-11-19T12:45:59.652044+00:00 ubuntu-lab sshd-session[1492]: pam_unix(sshd:auth): check pass; user unknown
+2026-11-19T12:45:59.652086+00:00 ubuntu-lab sshd-session[1492]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+2026-11-19T12:45:59.652211+00:00 ubuntu-lab sshd-session[1493]: pam_unix(sshd:auth): check pass; user unknown
+2026-11-19T12:45:59.652304+00:00 ubuntu-lab sshd-session[1493]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+2026-11-19T12:46:01.310107+00:00 ubuntu-lab sshd-session[1495]: Failed password for invalid user testuser from 127.0.0.1 port 51062 ssh2
+2026-11-19T12:46:01.501277+00:00 ubuntu-lab sshd-session[1492]: Failed password for invalid user testuser from 127.0.0.1 port 51036 ssh2
+2026-11-19T12:46:01.649310+00:00 ubuntu-lab sshd-session[1494]: Failed password for invalid user testuser from 127.0.0.1 port 51060 ssh2
+2026-11-19T12:46:01.685948+00:00 ubuntu-lab sshd-session[1493]: Failed password for invalid user testuser from 127.0.0.1 port 51052 ssh2
+2026-11-19T12:46:01.846679+00:00 ubuntu-lab sshd-session[1493]: Connection closed by invalid user testuser 127.0.0.1 port 51052 [preauth]
+2026-11-19T12:46:01.848377+00:00 ubuntu-lab sshd-session[1492]: Connection closed by invalid user testuser 127.0.0.1 port 51036 [preauth]
+2026-11-19T12:46:01.848790+00:00 ubuntu-lab sshd-session[1495]: Connection closed by invalid user testuser 127.0.0.1 port 51062 [preauth]
+2026-11-19T12:46:01.848997+00:00 ubuntu-lab sshd-session[1494]: Connection closed by invalid user testuser 127.0.0.1 port 51060 [preauth]
+2026-11-19T12:46:01.849357+00:00 ubuntu-lab sshd[1469]: srclimit_penalise: 127.0.0.1/32: activating ipv4 penalty of 20 seconds for penalty: failed authentication
